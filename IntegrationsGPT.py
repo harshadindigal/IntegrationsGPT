@@ -125,9 +125,9 @@ class SnowflakeAPIDocCrawler:
 def main():
     # Initialize the crawler
     crawler = SnowflakeAPIDocCrawler(
-        google_api_key='71a353fddaa12467f450c8cfd48f1383a61d01729f37d08904d1b737cd8525ef',
-        h2ogpte_api_key='sk-REFgS5bl31lXiyaW8YKfCgNh0O8Or0BIm3AtlRf9gPi1UFSR',
-        firecrawl_api_key='fc-5ae75e85ab6643cfbb4f4fbc15c41340'
+        google_api_key='',
+        h2ogpte_api_key='',
+        firecrawl_api_key=''
     )
 
     # Perform Google search
