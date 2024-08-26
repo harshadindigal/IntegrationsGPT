@@ -7,7 +7,7 @@ from googlesearch import GoogleSearch
 from firecrawl import FirecrawlApp
 from h2ogpte import H2OGPTE
 
-class SnowflakeAPIDocCrawler:
+class APIDocCrawler:
     def __init__(self, google_api_key: str, h2ogpte_api_key: str, firecrawl_api_key: str):
         self.google_api_key = google_api_key
         self.h2ogpte_client = H2OGPTE(
@@ -124,7 +124,7 @@ class SnowflakeAPIDocCrawler:
 
 def main():
     # Initialize the crawler
-    crawler = SnowflakeAPIDocCrawler(
+    crawler = APIDocCrawler(
         google_api_key='',
         h2ogpte_api_key='',
         firecrawl_api_key=''
